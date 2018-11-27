@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from django.views.generic import ListView
+#from . import models
+from api import models
 
-# Create your views here.
+class HomeView(ListView):
+	template_name = 'ui/home.html'
+	queryset = models.IMOS.objects.all()

@@ -5,9 +5,10 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'imos', views.IMOSViewSet)
+router.register(r'environment', views.EnvironmentViewSet)
 
 urlpatterns = [
-	path('', include('rest_auth.urls')),
+	path('', include('rest_framework.urls')),
 ]
 
 urlpatterns += router.urls
