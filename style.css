@@ -1,0 +1,57 @@
+.left-side-bar
+{
+	width: 220px;
+	background-color:#262B33;
+	height:100%;
+	color:#ccc;
+	font-family:Helvetica;
+	font-size:14px;
+	-webkit-box-shadow: 10px 0 5px -2px #888;
+	box-shadow: 2px 0 5px -1px #888;
+	width:14.5%
+}
+
+body {
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.logo
+{
+	height:64px;
+	width:220px;
+	text-align:center;
+	vertical-align: middle;
+	background-color:#009688;
+	color:#fff;
+	line-height:64px;
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:20px;
+	float:left;
+	width:14.5%
+}
+
+.page
+{
+	padding:15px 30px;
+	color:black;
+}
+
+.top-nav
+{
+	width:85.5%;
+	color:#3D4051;
+	font-family:Helvetica;
+	font-size:14px;
+	height:64px;
+	font-family: Helvetica;
+	float:right;
+	background-color:#fff;
+	-webkit-box-shadow: 0px 0 10px 0px #888;
+	box-shadow: 0px 0 10px 0px #888;	
+}
