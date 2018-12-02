@@ -1,0 +1,86 @@
+.float_left
+{
+    float: left;
+}
+
+.float_right
+{
+    float: right;
+}
+
+.float_top
+{
+    float: top;
+}
+
+.float_bottom
+{
+    float: bottom;
+}
+
+.bg_dark
+{
+    background: #262B33;
+}
+
+.bg_light
+{
+    background: #fff;
+}
+
+.bg_page
+{
+    background: #f3f3f3;
+}
+
+.right_shadow
+{
+    box-shadow: 2px 0px 5px 0px rgba(153,151,153,1); 
+}
+
+.bottom_shadow
+{
+    box-shadow: 0px 2px 5px 0px rgba(153,151,153,1); 
+}
+
+.card_shadow
+{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+html, body, .main_container { height: 100%; margin: 0; }
+
+.main_container 
+{
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 9% 1fr;
+    grid-template-areas: "logo top_nav_bar" "left_side_bar page";
+}
+
+.logo_container
+{
+    background: #009688;
+    font-family:Roboto, sans-serif;
+    font-weight: 500;
+    font-size:20px;
+    padding-left: 26%;
+    padding-top: 8%;
+    color:white;
+    cursor: pointer;
+}
+
+.top_nav_bar_icons
+{
+    width:5%;
+    height: 9%;
+    text-align: center;
+    padding-top: 1.8%;
+    cursor: pointer;
+}
+
+.top_nav_bar_icons:hover
+{
+    background: #f0f0f0;
+}
+
